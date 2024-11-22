@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/Netflix-Logo.png" alt="">
+            </div>
+            <div>
+                <button class="lang-button">English<i class="fa-solid fa-caret-down"></i></button>
+                <button class="sign">Sign In</button>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>Unlimited movies, TV<br> shows and more</h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <p>   Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="#" class="email">
+                <input type="email" placeholder="Email Address">
+                <button type="submit">Get Started <i class="fa-solid fa-angle-right"></i></button>
+            </form>
+        </div>
+    </header>
+    <div class="container"> 
+        <div class="header">
+            <h1>Trending Now</h1>
+        </div>
+        <div class="filters">
+            <select>
+                <option>India</option>
+            </select>
+            <select>
+                <option>Movies</option>
+            </select>
+        </div>
+        <div class="trending">
+            <div class="item">
+                <img alt="Movie poster for Khel Khel Mein" src="https://occ-0-3195-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABe55K8n2iGxeQ0UD_3AxGLgAOgY_Vb_GFR6pwqPbHgzmlTM-3cRQpOA41Guq8eej0pGMYmviYqSmQqgcNRJRAYuv7YHfNQpmE2RyHTxbm_dGimKQhqiGrNOiYx5BISIRHqAmz0o0d5F81WZXknRTZwrURp9QD6_nrz8YkYzOO8OuDSTQkMUz7ZKKl6sXalYQUKv8M-PKLc0ej1GrwY15iYKfHsQUFXZwj4_LURTJpx_5ah0XYsCGcHSUsbkPRrmqUhGQS0Y2CtzX2zFplBh8jsLxL25I95xTZSJW7mepcyzBrc4kej1ilnyozIURLtVpfKC4VPapGu5zpRjnxdmT6Bg.jpg?r=17c" />
+                <div class="number">1</div>
+                
+            </div>
+            <div class="item">
+                <img alt="Movie poster for The Greatest of All Time"  src="https://occ-0-3195-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdrE9HuXFq1mQQzTeMT1HsLxy7aPOX8W72NftxdXcN7wfGp-NKGr_bylODRYs9pQ3wDRT7Ycd-9vTZc5B40ClvJOBbdW7YSHLYFRdfowIn_EbVRWivVyVBCMyZL4JHi0TCS1E30rfLzR7uOPegMQX23vgUf3ux-ekfFe8oWhlsGtWJ3ix2MLj91kpeQPumpU-rcox4y4NGgXivJ5pBf0j1GZdYZYzID-SCig3NxX5v4w_2OVhDddBaQ5MQA3tsZrAnhzdDy0ng_1nlMMcX6-WoPJSqdBsU70JrLD51EloQd7EHaraCv6C3AMkyiVwz2yP871uU3SLKVRqZwOCV0rasY.jpg?r=4e6" />
+                <div class="number">2</div>
+                
+            </div>
+            <div class="item">
+                <img alt="Movie poster for CTRL"  src="https://occ-0-3195-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTro9ASKtRQ5-j6sBELe4Usnc9RbLSJ_dOqwvNZsYW5wVMfJsH3S2s-_eypSd6623pMxdhY21lcF5ItMLsf7VCjVuqZ-5AqmurcR7tew6hV0_91LY5jcUbc1oefAVNCJL271hXwFFk8ReYA2nC-Bd-9nlkr5VCv5Dty1DjFfQzaEPPkOY78YmLNV36a9LGWtu4OY-PYORKITFC6tFdxxUBQU3SZomE-KQvXyoSfBv9b4KLpngda_kmOSay47EMJaa-ryIDokBB-SKl0H8A24e3q1gq9jK9M7SDjjOZbziF8FTzhmVPP8Qvb1LiU7OGJM9LhA8e4OIHTGbUS6EqYXS99EhQj5yeZsJEI2AtWOPRNPBODgH4w.jpg?r=21e" />
+                <div class="number">
+                    3
+                </div>
+                
+            </div>
+            <div class="item">
+                <img alt="Movie poster for Sanivaaram" src="https://occ-0-3195-3662.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXbZAShSg0ZfQHJGZBU9G8UVF-Hp2f_ix_q8Pre3l5uk6S0WYBeDE-DWr08R2euefmOzixeDNjDTL-AEG9hM6mqe4RnMfSd_q6-X7H8WXGVRNASaC-KE3S3pugE_RGteKgbA7uR-okEzPlAfP_8BWq-QlCD02t01fCm3BQGJvUWIu8Tk6CU9oIhrqa5aCAvEcQO3XV3vPz0SISnsvuP3_HQJunFHMFL1Yhji5tz_3vqiWf6zKjFYtMiuzsug3CLuU0f9oBuPA2tKlaT5poJNaBW4O0pV59JCdL5YyXJPYDtrvzuaLFarx-Q3_YyGw6I0CX3izWBwp1ftWVv3o7pij44.jpg?r=7a3" />
+            <div class="number">
+                4
+            </div>
+            
+         </div>
+    </div>
+    <div class="reasons">
+        <h2>More reasons to join</h2>
+        <div class="reason">
+            <h3>
+                Enjoy on your TV
+            </h3>
+            <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+            </p>
+        </div>
+        <div class="reason">
+            <h3>
+                Download your shows to watch offline
+            </h3>
+            <p>
+                Save your favourites easily and always have something to watch.
+            </p>
+        </div>
+        <div class="reason">
+            <h3>
+                Watch everywhere
+            </h3>
+            <p>
+                Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+            </p>
+        </div>
+        <div class="reason">
+            <h3>
+                Create profiles for kids
+            </h3>
+            <p>
+                Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+            </p>
+        </div>
+       
+    </div>
+    <div class="faq">
+        <h1>Frequently Asked Questions</h1>
+        <div class="row">
+            <button>What is Netflix?</button>
+            <button>How much does Netflix cost?</button>
+            <button>Where can i watch?</button>
+            <button>How do i cancel?</button>
+            <button>What can i watch on Netflix?</button>
+            <button>Is Netflix good for kids?</button>
+        </div>
+    </div>
+    <div class="ff">
+        <div class="text">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form action="#" class="email">
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit">Get Started <i class="fa-solid fa-angle-right"></i></button>
+               </form>
+        </div>
+    </div>
+    <hr>
+    <!-- footer -->
+     <div class="footer">
+        <h2>Questions? Call 000-800-919-1694</h2>
+        <div class="row">
+            <div class="columns">
+                <a href="">FAQ</a>
+                <a href="">Privacy</a>
+                <a href="">Speed Test</a>
+                <a href="">Investor Relations</a>
+            </div>
+            <div class="columns">
+                <a href="">Help</a>
+                <a href="">Jobs</a>
+                <a href="">Cookie</a>
+                <a href="">Legal Notices</a>
+            </div>
+            <div class="columns">
+                <a href="">Account</a>
+                <a href="">Way to Watch</a>
+                <a href="">Cooperate Information</a>
+                <a href="">Only on Netflix</a>
+            </div>
+            <div class="columns">
+                <a href="">Media Center</a>
+                <a href="">Terms of Use</a>
+                <a href="">Contact Us</a>
+              
+            </div>
+
+        </div>
+        <button class="lang-button">English<i class="fa-solid fa-caret-down"></i></button>
+        <p>Netflix India</p>
+    </div>
+</html>
